@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n,m;
+    scanf("%d",&n);
+    for(m=1;m<=n;++m)
+        if(m%2!=0)
+            printf("%d ",m);
+        
+    
+    return 0;
+}
